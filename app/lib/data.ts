@@ -90,6 +90,7 @@ export async function fetchCardData() {
   }
 }
 
+// 송장데이터 6개씩 가져오기
 const ITEMS_PER_PAGE = 6;
 export async function fetchFilteredInvoices(
   query: string,
